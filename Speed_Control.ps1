@@ -1,3 +1,5 @@
+#https://www.codewars.com/kata/speed-control/powershell
+
 function get-gps($s, $x) {
   $maxAvgSpeed = 0
   for ($i = 1; $i -lt $x.count; $i++) {
